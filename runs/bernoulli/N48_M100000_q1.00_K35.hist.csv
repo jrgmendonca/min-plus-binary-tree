@@ -1,0 +1,4 @@
+# minplus histogram
+# N=13  p=0.5000000000  q=0.0000000000  M=100000  leaves=5  seed=0x0000000040480100  wall=0.236s
+value,count
+0,100000

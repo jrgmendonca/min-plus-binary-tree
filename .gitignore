@@ -1,0 +1,18 @@
+# build artifacts
+minplus
+minplus_ref
+minplus_dbg
+minplus_ref_dbg
+precompute_leaves
+*.o
+
+# regenerable data (leaf tables are large; samples regenerate from recorded seeds)
+tables/
+logs/
+*.samples.dat
+
+# regenerable figures
+figures/*.pdf
+
+# OS noise
+.DS_Store
