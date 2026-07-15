@@ -1,0 +1,44 @@
+=== METHOD 1: Bulirsch--Stoer rational extrapolation in 1/sqrt(N) ===
+n = 7 K=35 points, evaluation at x = 0.
+BST tableau diagonal (rescaled by 1/sqrt(c) -> by sqrt(c)/1 in our convention):
+  T_1^1 = 0.81590
+  T_1^2 = 1.01422
+  T_1^3 = 0.00356
+  T_1^4 = 1.00852
+  T_1^5 = 1.35984
+  T_1^6 = 1.00395
+  T_1^7 = 1.18453
+BST limit estimate (1/sqrt(N) -> 0): 1.18453
+AC asymptote                       : 1.20920
+BST/AC                              : 0.9796
+
+=== METHOD 2: three-parameter fit a + b/sqrt(N) + c/N ===
+intercept (a) = 1.26351 +/- 0.04882
+b (1/sqrt(N)) = -4.25350 +/- 0.66453
+c (1/N)       = 9.40446 +/- 2.24810
+R^2 = 0.998904
+a/AC = 1.0449
+
+For comparison, OLS linear fit (a + b/sqrt(N)):
+  intercept = 1.05985 +/- 0.00744
+  slope     = -1.47546 +/- 0.05079
+  R^2       = 0.994110
+
+=== METHOD 3: residual analysis after OLS linear fit ===
+Residuals (multiplied by 1e3):
+  N=36: resid = +0.00197
+  N=40: resid = -0.00048
+  N=44: resid = -0.00133
+  N=48: resid = -0.00243
+  N=52: resid = +0.00017
+  N=56: resid = +0.00096
+  N=60: resid = +0.00116
+
+Residual vs 1/N    : R = +0.0333, lm slope = +0.0128
+Residual vs log/sqrt: R = -0.0363, lm slope = -0.0022
+
+=== Summary table ===
+AC asymptote                    : 1.2092
+Linear (a + b/sqrt(N)) intercept: 1.0598
+Quadratic (+ c/N) intercept     : 1.2635
+BST tableau limit               : 1.1845

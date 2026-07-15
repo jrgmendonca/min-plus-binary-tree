@@ -1,0 +1,26 @@
+minplus simulation summary
+  depth N        : 4
+  prob p         : 0.4166666667
+  prob q         : 0.0000000000
+  samples M      : 100000
+  leaves         : 5
+  threads        : 10
+  seed           : 0x0000000000702420
+  wall time      : 0.018s  (5661552 samples/s)
+  mean(X_N)      : 10.797850
+  var(X_N)       : 432.728145
+  std(X_N)       : 20.802119
+  min            : 1
+  max            : 368
+  P(X_N=k) for k=0..10:
+    k=0    count=0             prob=0.000000e+00
+    k=1    count=28927         prob=2.892700e-01
+    k=2    count=13895         prob=1.389500e-01
+    k=3    count=8852          prob=8.852000e-02
+    k=4    count=6070          prob=6.070000e-02
+    k=5    count=4685          prob=4.685000e-02
+    k=6    count=3710          prob=3.710000e-02
+    k=7    count=2991          prob=2.991000e-02
+    k=8    count=2542          prob=2.542000e-02
+    k=9    count=2157          prob=2.157000e-02
+    k=10   count=1877          prob=1.877000e-02

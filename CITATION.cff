@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "min-plus-binary-tree: Monte Carlo simulator for the min-plus process on the binary tree"
+authors:
+  - family-names: "Mendonça"
+    given-names: "José Ricardo G."
+    affiliation: "Universidade de São Paulo"
+license: MIT
+repository-code: "https://github.com/USERNAME/min-plus-binary-tree"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Mendonça"
+      given-names: "José Ricardo G."
+  title: "Finite-depth scaling and an exact Bernoulli-leaf identity for the min-plus process on the binary tree"
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  year: 2026
+  status: submitted
