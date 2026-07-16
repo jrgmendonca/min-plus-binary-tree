@@ -13,8 +13,7 @@ $\min$ to the values of its two children.
 Companion code and data for:
 
 > J. R. G. Mendonça, *Finite-depth scaling and an exact Bernoulli-leaf identity
-> for the min-plus process on the binary tree*, J. Phys. A: Math. Theor.
-> (under review, ref. JPhysA-124827).
+> for the min-plus process on the binary tree* (2026)
 
 ## Contents
 
