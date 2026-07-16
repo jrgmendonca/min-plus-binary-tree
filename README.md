@@ -1,8 +1,6 @@
 # min-plus-binary-tree
 
-<!-- Zenodo DOI badge — fill in after the first release is archived:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21385814.svg)](https://doi.org/10.5281/zenodo.21385814)
 
 Monte Carlo simulator, exact leaf-table precompute, and analysis scripts for the
 **min-plus process on the binary tree** — the max-type recursive distributional

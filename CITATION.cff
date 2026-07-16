@@ -6,6 +6,7 @@ authors:
     given-names: "José Ricardo G."
     affiliation: "Universidade de São Paulo"
 license: MIT
+doi: 10.5281/zenodo.21385814
 repository-code: "https://github.com/jrgmendonca/min-plus-binary-tree"
 preferred-citation:
   type: article
